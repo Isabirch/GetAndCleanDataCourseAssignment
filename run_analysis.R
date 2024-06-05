@@ -1,3 +1,5 @@
+library(dplyr)
+
 ## read in raw data
 data_root <- "getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset"
 test <- read.table(file.path(data_root, "test", "X_test.txt"))
